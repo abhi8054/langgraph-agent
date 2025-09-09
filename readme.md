@@ -18,6 +18,7 @@ This project demonstrates how to build an **AI Agent with LangGraph** that can:
 - Runs as a **REPL chatbot** in Node.js.
 
 ---
+
 ## 🛠️ Tech Stack
 
 - LangChain.js — AI orchestration framework
@@ -39,9 +40,21 @@ This project demonstrates how to build an **AI Agent with LangGraph** that can:
 
    ```
 
-2. npm install
+2. Install Dependencies
 
-3. WEATHER_API_KEY=your_google_api_key_here
-   MODEL_API_KEY=your_gemini_api_key_here
+   ```bash
+       npm install
+   ```
 
-4. node agent.js
+3. Create .env File
+
+   ```bash
+       WEATHER_API_KEY=your_google_api_key_here
+       MODEL_API_KEY=your_gemini_api_key_here
+   ```
+
+4. Start Project
+
+   ```bash
+     node agent.js
+   ```
